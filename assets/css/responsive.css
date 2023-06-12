@@ -1,0 +1,685 @@
+@media(max-width: 1200px){
+	.our-service-item {
+		margin-bottom: 30px;
+	}
+	.footer-middle p br{
+		display: none;
+	}
+	.item-logo-section {
+		height: 250px;
+		width: 250px;
+		margin-top: -190px;
+	}
+} 
+
+
+
+
+@media(min-width: 992px){
+	.detailing-service-main .col-lg-2 {
+	    -ms-flex: 0 0 16.666667%;
+	    flex: 0 0 14.2%;
+	    max-width: 14.2%;
+	}
+	.protection-service-main .col-lg-2 {
+	    -ms-flex: 0 0 16.666667%;
+	    flex: 0 0 20%;
+	    max-width: 20%;
+	}
+
+}
+
+
+
+
+@media(max-width: 991px){
+	.menu-bottom .navbar-dark .navbar-nav .nav-link {
+	    font-size: 14px;
+	    padding: 0 16px;
+  	}
+	.second-slider-item a {
+	    left: 50%;
+	    transform: translateX(-50%);
+	    top: 0;
+	}
+	.logo-section img {
+		margin-top: 20px;
+		margin-left: 0px;
+		width: 100%;
+	}
+	.outline-slider-description {
+		width: 70%;
+	}
+	.car-left-description p {
+		width: 100%;
+	}
+	.professional-car-right img {
+		position: relative;
+		bottom: -40px;
+		left: 0%;
+	}
+	.second-slider-item h2 {
+		font-size: 32px;
+	}
+	.second-slider-item a {
+		padding: 16px 30px;
+		font-size: 18px;
+	}
+	.our-service-item {
+		margin-bottom: 30px;
+	}
+	.our-service-item p {
+		font-size: 16px;
+	}
+	.sign-up-option span {
+		font-size: 22px;
+	}
+	.bg-image {
+		margin-top: 0px;
+	}
+	.book-now-right {
+		margin-top: 100px;
+	}
+	.footer-middle p {
+		width: 100%;
+	}
+}
+
+
+
+
+@media(max-width: 767px){
+	/* .menu-top {
+    position: absolute;
+    right: 10px;
+    top: -50px;
+	} */
+	.logo-section img {
+		margin-left: 0;
+		width: inherit;
+	}
+	.menu-top .navbar-toggler{
+		position: absolute;
+		top: -35px;
+		right: 0;
+	}
+	.menu-top .navbar li a{
+		font-size: 13px!important;
+	}
+	.navbar-dark .navbar-toggler:focus {
+    	outline: none;
+	}
+	.navbar-nav{
+		margin-top: 10px;
+	}
+
+	.menu-bottom .navbar-dark .navbar-nav .nav-link {
+	    font-size: 15px;
+	    padding: 4px 12px;
+	}
+	.navbar-nav .dropdown-menu {
+	    position: relative;
+	    top: 0;
+  	}
+  	.dropdown-item {
+    	color: #ffffff;
+    	background-color: #1f1f1f;
+  	}
+
+	.outline-slider-description {
+		width: 100%;
+		/* top: 0; */
+	}
+
+	p br, h2 br{
+		display: none;
+	}
+
+	/* Car */
+	.car-left-description p {
+	    width: 100%;
+	    padding: 10px;
+	    text-align: justify;
+	    /* font-size: 14px; */
+	    line-height: 1.6;
+	}
+	.car-left-description {
+	    padding: 25px 0;
+	    text-align: center;
+	}
+	/* .car-left-description h2{
+		font-size: 20px;
+	} */
+	.professional-car-main .car-right {
+	    background: inherit;
+	    background-size: inherit;
+	    background-position: inherit;
+	    position: inherit;
+	    padding: 0;
+	}
+	.professional-car-right {
+	    background: url(../img/water-background-red.jpg) no-repeat;
+	    background-size: cover;
+	    background-position: center;
+	    position: relative;
+	    padding: 50px 0px 0px 0px;
+	}
+	.professional-car-right img {
+	    width: 100%;
+	    position: inherit;
+	}
+
+	/* Car buying menu */
+	.car-buying-menu {
+		padding-top: 0px;
+	}
+	.car-buying-menu ul {
+    	padding: 0;
+	}
+	
+	.car-buying-menu ul li a {
+	    padding: 10px;
+	    /* font-size: 13px; */
+	}
+	
+	.buying-item-details h2 {
+	    font-size: 17px;
+	}
+
+	.buying-item-details a {
+	    padding: 10px 0px;
+	    width: 55%;
+	    font-size: 15px;
+	}
+	.buying-item-details a.view {
+	    padding: 10px 0px;
+	    width: 50%;
+	}
+	.car-buying-item {
+	    margin-bottom: 15px;
+	}
+
+	/* Second slider item */
+	.second-slider-main {
+	    padding: 10px 0;
+	}
+	.second-slider-item {
+	    padding: 10px 0;
+	    text-align: center;
+	}
+	.second-slider-item h2.first-header, .second-header, .third-header, .fourth-header, .fifth-header {
+	    position: inherit;
+	    width: 100%;
+	    transform: inherit;
+	}
+
+	.second-slider-item h2 {
+	    text-shadow: 0px 3px 5px #5a5353;
+	    font-weight: 700;
+	    font-size: 20px;
+	}
+	.second-slider-item a {
+	    padding: 10px 15px;
+	    font-size: 13px;
+	    position: inherit;
+	    left: 0;
+	    transform: inherit;
+	}
+	.second-slider-item h2, .second-slider-item p {
+	    margin-left: 0;
+	    color: #fff;
+	}
+	.second-slider-item p span {
+		display: block;
+	}
+
+	/*Our aservice section */
+	.our-service-full {
+	    padding: 40px 0;
+	}
+	.our-service-item {
+	    padding: 10px;
+	    text-align: center;
+	    margin: 8px 0;
+	}
+	.our-service-item h3 {
+	    font-size: 18px;
+	    margin: 10px 0;
+	}
+	.our-service-item p {
+	    font-size: 15px;
+	}
+
+	/* book now */
+	.book-now-full {
+	    margin: 50px 0;
+	}
+	.bg-image {
+	    margin-top: 0;
+	}
+	.book-now-right {
+	    margin-top: 70px;
+	}
+	/* .book-now-right h2 {
+    	font-size: 20px;
+    } */
+    /* .book-now-right h3 {
+	    font-size: 16px;
+	} */
+	.book-now-right p {
+	    /* font-size: 13px; */
+	    line-height: 1.4em;
+	}
+	.book-now-right button.btn {
+	    padding: 10px 20px;
+    	font-size: 16px;
+    }
+	.testimonial-slider{
+		width: 100%;
+	}
+	.testimonial-slider .row{
+		margin: 0;
+	}
+	.testimonial-slider .owl-loaded.owl-drag .fas.fa-chevron-left, .testimonial-slider .owl-loaded.owl-drag .fas.fa-chevron-right {
+	    top: 50%;
+	    transform: translateY(-50%);
+	    width: 30px;
+	    height: 30px;
+	    line-height: 30px;
+	}
+	.testimonial-slider .owl-nav {
+	    z-index: 1;
+	    display: inline-flex;
+	}
+	.testimonial-slider-item h2 {
+	    font-size: 20px;
+	}
+	.testimonial-slider-item p {
+	    font-size: 16px;
+	}
+	.testimonial-slider-item p {
+	    width: 80%;
+	}
+
+
+	.sign-up-option span {
+	    font-size: 20px
+	}
+	.sign-up-form input {
+		padding: 10px;
+	}
+	.sign-up-form button {
+	    padding: 10px;
+	    font-size: 17px;
+	}
+
+	.download-app-left,
+	.download-app-right {
+	    text-align: center;
+	}
+	.download-app-right span {
+	    font-size: 15px;
+	}
+	.download-app-right h3 {
+	    font-size: 20px;
+	}
+
+	.follow-left a {
+	    font-size: 15px;
+	    padding: 10px;
+	}
+	
+
+
+	/* footer */
+	.item-logo-section {
+		margin: 0 auto;
+		margin-top: -150px;
+	}
+	.footer-top-item-1 a.r-a {
+		width: 50%;
+		margin: 0 auto;
+	}
+	.footer-top-item-2 p {
+		margin-left: 0;
+	}
+	.footer-top-item-2,.form-section{
+		text-align: center;
+	}
+	form button {
+		padding: 10px 30px;
+		font-size: 15px;
+	}
+
+	.footer-middle p {
+		text-align: center;
+		/* font-size: 13px; */
+		width: 100%;
+	}
+	/* .footer-bottom {
+		text-align: center;
+	} */
+	.footer-bottom .link-item {
+		margin-bottom: 20px;
+	}
+	 
+}
+
+
+
+
+@media(max-width: 575px){
+	/* Menu top */
+	.menu-top .navbar{
+		padding: 10px 0px;
+	}
+	.menu-top ul {
+    	margin-top: 15px;
+	}
+	.menu-top ul li {
+    	margin: 2px 0px;
+	}
+	.menu-top ul li a {
+    	padding: 5px;
+		font-size: 13px!important;
+  	}
+  	.menu-top ul li.shopping a .fa-shopping-cart {
+	    height: 25px;
+	    width: 25px;
+	    line-height: 25px;
+	}
+	
+
+
+  /* Slider */
+	.slider-item h2 {
+	    font-size: 1.7rem;
+	    padding-top: 60px;
+	}
+	.slider-item h2:after {
+	    width: 100%;
+	}
+	.slider-item p,.menu-top ul li.request a, .menu-top ul li.contact a,.menu-top ul li a,.menu-top ul li a i,.protection-item p, .detailing-item p,.buying-item-details p,.buying-item-details p span{
+	    font-size: 16px;
+	}
+	.slider-item a {
+	    padding: 10px 15px;
+	    font-size: 16px;
+	}
+  	.slider-item.item-1, .slider-item.item-2, .slider-item.item-3 {
+    	background-position: center;
+	}
+	.slider-item {
+	    height: 400px;
+	}
+	.navbar-toggler {
+    	padding: 2px 6px;
+    	font-size: 16px;
+    }
+
+    /* Outer slider */
+    .outline-slider-description h3 {
+	    padding: 15px;
+	    font-size: 16px;
+	}
+	.outline-slider-description {
+	    width: 100%;
+	    top: 0;
+	}
+
+	/*protection & detailing service */
+	/* .protection-service-main h3, .detailing-service-main h3{
+		font-size: 16px;
+	} */
+
+	.car-left-description p {
+	    width: 100%;
+	    padding: 10px;
+	    text-align: justify;
+	    font-size: 16px;
+	    line-height: 1.6;
+	}
+	.car-left-description {
+	    padding: 25px 0;
+	    text-align: center;
+	}
+	/* .car-left-description h2{
+		font-size: 20px;
+	} */
+	.professional-car-main .car-right {
+	    background: inherit;
+	    background-size: inherit;
+	    background-position: inherit;
+	    position: inherit;
+	    padding: 0;
+	}
+	.professional-car-right {
+	    background: url(../img/water-background-red.jpg) no-repeat;
+	    background-size: cover;
+	    background-position: center;
+	    position: relative;
+	    padding: 50px 0px 0px 0px;
+	}
+	.professional-car-right img {
+	    width: 100%;
+	    position: inherit;
+	}
+
+	/* Car buying menu */
+	.car-buying-menu {
+		padding-top: 0px;
+	}
+	.car-buying-menu ul {
+    	padding: 0;
+	}
+	
+	.car-buying-menu ul li a {
+	    padding: 10px;
+	    /* font-size: 13px; */
+	}
+	
+	.buying-item-details h2 {
+	    font-size: 17px;
+	}
+
+	.buying-item-details a {
+	    padding: 10px 0px;
+	    width: 55%;
+	    font-size: 15px;
+	}
+	.buying-item-details a.view {
+	    padding: 10px 0px;
+	    width: 50%;
+	}
+	.car-buying-item {
+	    margin-bottom: 15px;
+	}
+
+
+	/* Second slider item */
+	.second-slider-main {
+	    padding: 10px 0;
+	}
+	.second-slider-item {
+	    padding: 10px 0;
+	    text-align: center;
+	}
+	.second-slider-item h2.first-header, .second-header, .third-header, .fourth-header, .fifth-header {
+	    position: inherit;
+	    width: 100%;
+	    transform: inherit;
+	}
+
+	.second-slider-item h2 {
+	    text-shadow: 0px 3px 5px #5a5353;
+	    font-weight: 700;
+	    font-size: 20px;
+	}
+	.second-slider-item a {
+	    padding: 10px 15px;
+	    font-size: 13px;
+	    position: inherit;
+	    left: 0;
+	    transform: inherit;
+	}
+	.second-slider-item h2, .second-slider-item p {
+	    margin-left: 0;
+	    color: #fff;
+	}
+
+	/*Our aservice section */
+	.our-service-full {
+	    padding: 40px 0;
+	}
+	.our-service-item {
+	    padding: 10px;
+	    text-align: center;
+	    margin: 8px 0;
+	}
+	.our-service-item h3 {
+	    font-size: 18px;
+	    margin: 10px 0;
+	}
+	.our-service-item p {
+	    font-size: 15px;
+	}
+
+
+	/* book now */
+	.book-now-full {
+	    margin: 50px 0;
+	}
+	.bg-image {
+	    margin-top: 0;
+	}
+	.book-now-right {
+	    margin-top: 70px;
+	}
+	/* .book-now-right h2 {
+    	font-size: 20px;
+    } */
+    /* .book-now-right h3 {
+	    font-size: 16px;
+	} */
+	.book-now-right p {
+	    /* font-size: 13px; */
+	    line-height: 1.4em;
+	}
+	.book-now-right button.btn {
+	    padding: 10px 20px;
+    	font-size: 16px;
+    }
+	.testimonial-slider{
+		width: 100%;
+	}
+	.testimonial-slider .row{
+		margin: 0;
+	}
+	.testimonial-slider .owl-loaded.owl-drag .fas.fa-chevron-left, .testimonial-slider .owl-loaded.owl-drag .fas.fa-chevron-right {
+	    top: 50%;
+	    transform: translateY(-50%);
+	    width: 30px;
+	    height: 30px;
+	    line-height: 30px;
+	}
+	.testimonial-slider .owl-nav {
+	    z-index: 1;
+	    display: inline-flex;
+	}
+	.testimonial-slider-item h2 {
+	    font-size: 20px;
+	}
+	.testimonial-slider-item p {
+	    font-size: 16px;
+	}
+	.testimonial-slider-item p {
+	    width: 80%;
+	}
+
+	/* Sign up */
+	.sign-up-option span {
+	    font-size: 20px
+	}
+	.sign-up-form input {
+		padding: 10px;
+	}
+	.sign-up-form button {
+	    padding: 10px;
+	    font-size: 17px;
+	}
+
+	.download-app-left,
+	.download-app-right {
+	    text-align: center;
+	}
+	.download-app-right span {
+	    font-size: 15px;
+	}
+	.download-app-right h3 {
+	    font-size: 20px;
+	}
+
+	.follow-left a {
+	    font-size: 15px;
+	    padding: 10px;
+	}
+	
+
+
+	/* footer */
+	.item-logo-section {
+	    margin: 0 auto;
+	    margin-top: -115px;
+	}
+	.footer-top-item-1 a.r-a {
+	    width: 50%;
+	    margin: 0 auto;
+	}
+	.footer-top-item-2 p {
+	    margin-left: 0;
+	}
+	.footer-top-item-2,.form-section{
+		text-align: center;
+	}
+	form button {
+	    padding: 10px 30px;
+	    font-size: 15px;
+	}
+
+	.footer-middle p {
+	    text-align: center;
+	    /* font-size: 13px; */
+	    width: 100%;
+	}
+
+	.footer-bottom {
+	    text-align: center;
+	}
+	/* .footer-link-item.link-item ul li a {
+	    font-size: 16px;
+	} */
+	.footer-bottom .link-item {
+	    margin-bottom: 20px;
+	}	 
+
+}
+
+
+
+@media (max-width: 425px) {
+	
+	.footer-top-item-1 a.r-a {
+	    width: 60%;
+	}
+	.footer-middle p {
+	    font-size: 17px;
+	}
+}
+
+
+
+@media(max-width: 320px){
+	
+}
+
+
